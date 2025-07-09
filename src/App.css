@@ -1,0 +1,27 @@
+/* PDF Viewer Styles */
+.pdf-viewer-container {
+  transition: all 0.3s ease;
+}
+
+.pdf-viewer-container.hidden {
+  display: none;
+}
+
+.pdf-viewer-container:not(.hidden) {
+  display: block;
+}
+
+.pdfViewer .page {
+  margin: 1px auto 10px auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: visible;
+}
+
+.textLayer ::selection, .highlight {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+.findbar {
+  display: none !important;
+}
