@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -17,8 +18,48 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+=======
+# dependencies
+node_modules/
+
+# production
+/dist/
+/build/
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+# IDEs and editors
+.vscode/
+.idea/
+>>>>>>> 96434556de0538450eb2a00fd99489b670c2abba
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+<<<<<<< HEAD
 *.sw?
+=======
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+Thumbs.db
+ehthumbs.db
+
+# Optional: Mac system files
+*.DS_Store
+
+# Optional: Windows system files
+Desktop.ini
+
+# Optional: local history for JetBrains IDEs
+.localhistory/
+>>>>>>> 96434556de0538450eb2a00fd99489b670c2abba
