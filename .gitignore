@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -8,17 +7,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-=======
 # dependencies
 node_modules/
 
@@ -35,14 +23,11 @@ node_modules/
 # IDEs and editors
 .vscode/
 .idea/
->>>>>>> 96434556de0538450eb2a00fd99489b670c2abba
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-<<<<<<< HEAD
 *.sw?
-=======
 
 # logs
 npm-debug.log*
@@ -62,4 +47,3 @@ Desktop.ini
 
 # Optional: local history for JetBrains IDEs
 .localhistory/
->>>>>>> 96434556de0538450eb2a00fd99489b670c2abba
